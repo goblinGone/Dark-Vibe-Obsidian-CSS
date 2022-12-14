@@ -83,7 +83,7 @@ strong {
   padding: 0;
   color: #5ea780;
   background-color: #5ea780;
-  background-image: linear-gradient(62deg, #1c5911 0%, #25af0d 100%) !important;
+  background-image: linear-gradient(62deg, #206b13 0%, #206b13 100%) !important;
 }
 
 strong .math.math-inline .MathJax {
@@ -367,14 +367,11 @@ h6 {
 }
 
 .HyperMD-header.HyperMD-header-2,
-.HyperMD-header.HyperMD-header-3,
-.HyperMD-header.HyperMD-header-4,
-.HyperMD-header.HyperMD-header-5,
-.HyperMD-header.HyperMD-header-6 {
+.HyperMD-header.HyperMD-header-3{
   border-bottom: 1px solid;
   border-width: 1px;
   border-image-slice: 1;
-  border-image-source: linear-gradient(to right, var(--text-sub-accent), #f70303, #f70303, #f70303);
+  border-image-source: linear-gradient(to right, #206b13);
 }
 
 .HyperMD-header {
@@ -417,21 +414,6 @@ h6 {
   color: #1c5911;
 }
 
-/** headings */
-.markdown-preview-view h2,
-.markdown-preview-view h3,
-.markdown-preview-view h4,
-.markdown-preview-view h5,
-.markdown-preview-view h6 {
-  /* padding-top: 1.25rem; */
-  margin: 25px 0 10px 0;
-  position: relative;
-  padding-bottom: 4px;
-  border-bottom: 1px solid;
-  border-width: 20%;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to right, var(--text-sub-accent), #f70303, #f70303, #f70303);
-}
 
 .view-header-icon {
   color: var(--text-accent);
